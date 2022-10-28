@@ -1,0 +1,158 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@500&display=swap");
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar-work.active {
+  color: red;
+}
+.navbar-component {
+  color: red;
+}
+.first-intro {
+}
+.first-intro-text {
+}
+.first-intro-text-header {
+  font-weight: bold;
+  font-size: 2em;
+}
+.first-intro-text-para {
+  font-size: 1.5em;
+  color: grey;
+}
+
+.w-slide {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: left;
+}
+.about-text {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}
+.section-header-link {
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.column-view-more {
+  height: 80%;
+}
+.section-header-link-cont {
+  justify-content: center;
+  align-items: center;
+}
+.section-header-icon {
+  width: 20%;
+  text-align: end;
+  padding-top: auto;
+  padding-bottom: 0;
+  margin: 0px;
+}
+.my-story-text {
+  color: rgb(80, 79, 79);
+  font-weight: 550;
+}
+.Container-text-l,
+.Container-text-r {
+  padding: 0;
+  margin: 0 1em 0 1em;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+}
+.section-homepage {
+  font-size: 1em;
+}
+
+.year {
+  font-size: 0.9em;
+  color: rgb(136, 136, 136);
+  margin: 4px 0;
+}
+.body-paragraph {
+  font-size: 0.9em;
+  font-weight: lighter;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+  word-spacing: 1px;
+  margin-bottom: 7px;
+}
+.high-emphasis {
+  font-size: 1em;
+  font-weight: bolder;
+  margin-bottom: 0.2px;
+}
+.company-location {
+}
+.low-emphasis {
+  margin-left: 0.9em;
+  margin-bottom: 7px;
+  color: rgb(114, 114, 114);
+}
+
+.my-skillsets-text {
+  font-family: Arial;
+  color: rgb(88, 88, 88);
+  /* margin-bottom: 1em; */
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  border: 20px red;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: blue;
+}
+.skill-heading {
+  font-size: 1.18em;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgb(83, 83, 83);
+  margin-bottom: 0;
+}
+.paragraph-skills {
+  font-size: 0.94em;
+  color: rgb(116, 113, 113);
+}
+.skill-carousel {
+  width: 300px;
+  height: 238px;
+  margin-right: 5%;
+  margin-left: 0%;
+  padding: 0 9px;
+  border: 1.5px solid #e1e1e1;
+  border-radius: 10px;
+  background-color: #fff;
+  line-height: 1.15em;
+}
+.Container-skillset {
+  padding: 0;
+  padding: 1.7em;
+}
+.Container-image-skills {
+  padding: 0;
+}
